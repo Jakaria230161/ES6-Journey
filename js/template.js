@@ -4,7 +4,7 @@ const person2 = "Imran";
 const person3 = `Hridoy Khan`;
 console.log(person, person2, person3);
 
-// multi line string , u can't get different this ways
+// multi line string , u can't get different line this ways
 const multiLine = "firs line" +
     "second line" +
     "third line";
@@ -29,4 +29,12 @@ const b = 30;
 
 const summary = `sum of ${a} and ${b} is : ${a + b}`;
 console.log(summary);
+
+// Create multiLine using backtick
+
+const manyLine = `I am a developer
+I am learning new things regularly
+I am learning in programming hero
+I have to work regularly`;
+console.log(manyLine);
 
