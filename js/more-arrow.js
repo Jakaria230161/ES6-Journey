@@ -2,9 +2,10 @@
 // slim version of function - it is called arrow function
 const add = (first, second) => first + second;
 const getFulName = (first, last) => first + ' ' + last;
-const multiplier = (a, b) => a * b;
 
+const multiplier = (a, b) => a * b;
 const result = multiplier(7, 8);
+
 console.log(result);
 
 
